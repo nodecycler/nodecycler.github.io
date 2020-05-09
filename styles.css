@@ -1,3 +1,20 @@
 :root {
     --font-family-sans-serif: 'Open Sans', sans-serif;
+    --primary: #6FAD2D;
+}
+svg.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.jumbotron.intro {
+    background-color: #DDE0C9;
+}
+.jumbotron.intro .btn-primary {
+    background-color: #6FAD2D;
+    border-color: #6FAD2D;
+}
+.jumbotron.intro .btn-primary:active {
+    background-color: #579120;
+    border-color: #579120;
 }
